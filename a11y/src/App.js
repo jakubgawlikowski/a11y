@@ -25,15 +25,17 @@ function App() {
           </ul>
         </nav>
         <main className="main" role="main" label="Main content">
-          <p>This is the main content of the page</p>
+          <h2>This is the main content of the page</h2>
 
           <div role="region" aria-labelledby="special-region">
-            <p id="special-region">Special region</p>
+            <h3 id="special-region">Special region</h3>
+            <p>
             This is a region that I want the user to be able to find.
+            </p>
           </div>
         </main>
         <footer className="footer" role="contentinfo">
-          <p>This is a <a href="#">Footer link</a></p>
+          <p>This is a <a href="/">Footer link</a></p>
         </footer>
       </div>
     </>
