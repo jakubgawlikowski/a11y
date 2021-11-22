@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/jakubgawlikowski/a11y/issues"
   },
-  "homepage": "https://github.com/jakubgawlikowski/a11y#readme"
+  "homepage": "https://github.com/jakubgawlikowski/a11y#readme",
+  "dependencies": {
+    "create-react-app": "^4.0.3"
+  }
 }
