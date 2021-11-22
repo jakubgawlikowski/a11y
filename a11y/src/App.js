@@ -35,7 +35,10 @@ function App() {
           </div>
         </main>
         <footer className="footer" role="contentinfo">
-          <p>This is a <a href="/">Footer link</a></p>
+          <p>This is the first <a href="/">link</a>.</p>
+          <p>This is the second <a href="/">link</a>.</p>
+          <p>This is the third <a href="/">link</a>.</p>
+          <p>This is the fourth <a href="/">link</a>.</p>
         </footer>
       </div>
     </>

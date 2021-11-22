@@ -18,4 +18,9 @@
 
 .footer {
   flex: 0 0 100%;
+  display: flex;
+}
+
+.footer p {
+  padding-right: 10px;
 }
