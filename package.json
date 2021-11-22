@@ -1,0 +1,19 @@
+{
+  "name": "a11y",
+  "version": "1.0.0",
+  "description": "training for a11y implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakubgawlikowski/a11y.git"
+  },
+  "author": "Zenobia Gawlikowska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jakubgawlikowski/a11y/issues"
+  },
+  "homepage": "https://github.com/jakubgawlikowski/a11y#readme"
+}
