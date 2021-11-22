@@ -8,7 +8,7 @@ function App() {
           Accessibility demo page
         </h1>
         <form role="search">
-          <input type="search" aria-label="search text" size="20"/>
+          <input type="search" accesskey="q" aria-label="search text" size="20"/>
           <input type="submit" value="Search"/>
         </form>
       </header>
