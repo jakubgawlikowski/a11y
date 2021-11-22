@@ -7,11 +7,11 @@ function App() {
         <h1>
           Accessibility demo page
         </h1>
-        <form role="search">
-          <input type="search" accesskey="q" aria-label="search text" size="20"/>
-          <input type="submit" value="Search"/>
-        </form>
       </header>
+      <form role="search">
+        <input type="search" accesskey="q" aria-label="search text" size="20"/>
+        <input type="submit" value="Search"/>
+      </form>
       <div className="container">
         <nav className="menu" role="navigation">
           <ul>
