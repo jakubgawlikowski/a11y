@@ -2,6 +2,7 @@ import React from 'react';
 import { StyledEngineProvider } from '@mui/material/styles';
 import Modal from './Modal';
 import { Dialog } from './Dialog';
+import Tooltip from './Tooltip';
 
 import './App.css';
 
@@ -22,7 +23,7 @@ function App() {
           <ul>
             <li><Modal/></li>
             <li><Dialog /></li>
-            <li>Menu item 3</li>
+            <li><Tooltip tabIndex="0" /></li>
             <li>Menu item 4</li>
             <li>Menu item 5</li>
             <li>Menu item 6</li>
