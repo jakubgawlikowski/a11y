@@ -31,22 +31,22 @@ function App() {
           </ul>
         </nav>
         <main className="main" role="main" aria-label="Main content">
-          <h3>This is the main content of the page</h3>
+          <h2>This is the main content of the page</h2>
 
           <section aria-labelledby="special-region">
-            <h2 id="special-region">Special region</h2>
+            <h3 id="special-region">Special region</h3>
             <p>
             This is a region that I want the user to be able to find.
             </p>
           </section>
           <section>
-            <h1 id="special-region2">Some other region</h1>
+            <h3 id="special-region2">Some other region</h3>
             <p>
             This is a another generic region.
             </p>
           </section>
           <section>
-            <h2 id="special-region3">Yet another region</h2>
+            <h3 id="special-region3">Yet another region</h3>
             <p>
             This is still another generic region.
             </p>
