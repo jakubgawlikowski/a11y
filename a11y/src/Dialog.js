@@ -23,10 +23,8 @@ export const Dialog = () => {
       </dialog>
 
       <menu>
-        <button id="updateDetails" onClick={() => setOpen(true)}>Update details</button>
+        <button id="updateDetails" onClick={() => setOpen(true)}>Menu with tabbing problem</button>
       </menu>
-
-      <output aria-live="polite"></output>
     </>
   );
 }
