@@ -7,6 +7,7 @@ export const Dialog = () => {
     <>
       <dialog id="favDialog" open={open}>
         <form method="dialog">
+          <p id="dialog-label">Select your favorite animal</p>
           <p><label>Favorite animal:
             <select>
               <option></option>
@@ -21,6 +22,8 @@ export const Dialog = () => {
           </menu>
         </form>
       </dialog>
+
+      <div role="region" aria-live="polite">{open ? 'Modal is open' : 'Modal is closed'}</div>
 
       <menu>
         <button id="updateDetails" onClick={() => setOpen(true)}>Menu with tabbing problem</button>
