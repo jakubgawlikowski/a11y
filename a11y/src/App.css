@@ -32,3 +32,11 @@
 .skipLink:focus {
   margin-left: 0;
 }
+
+.bannerImage {
+  width: 50%;
+}
+
+.handPointer {
+  width: 25px;
+}

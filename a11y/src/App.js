@@ -4,6 +4,8 @@ import { StyledEngineProvider } from '@mui/material/styles';
 import Modal from './Modal';
 import { Dialog } from './Dialog';
 import Tooltip from './Tooltip';
+import banner from './web-accessibility.jpg';
+import hand from './hand.png';
 
 import './App.css';
 
@@ -15,6 +17,7 @@ function App() {
           Accessibility demo page
         </h1>
       </header>
+      <img className="bannerImage" src={banner} alt="people with disabilities"/>
       <a className="skipLink" href="#main-content">Skip to main content</a>
       <form role="search">
         <input type="search" aria-label="search text" size="20"/>
@@ -38,19 +41,19 @@ function App() {
           <section aria-labelledby="special-region">
             <h3 id="special-region">Special region</h3>
             <p>
-            This is a region that I want the user to be able to find.
+            <img className="handPointer" src={hand} alt="" /> This is a region that I want the user to be able to find.
             </p>
           </section>
           <section>
             <h3 id="special-region2">Some other region</h3>
             <p>
-            This is a another generic region.
+            <img className="handPointer" src={hand} alt="" />This is a another generic region.
             </p>
           </section>
           <section>
             <h3 id="special-region3">Yet another region</h3>
             <p>
-            This is still another generic region.
+            <img className="handPointer" src={hand} alt="hand, but that's irrelevant" />This is still another generic region.
             </p>
           </section>
         </main>
