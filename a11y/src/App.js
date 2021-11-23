@@ -1,9 +1,13 @@
 import React from 'react';
+import { StyledEngineProvider } from '@mui/material/styles';
+import Modal from './Modal';
+import { Dialog } from './Dialog';
+
 import './App.css';
 
 function App() {
   return (
-    <>
+    <StyledEngineProvider injectFirst>
       <header role="banner">
         <h1>
           Accessibility demo page
@@ -16,8 +20,10 @@ function App() {
       <div className="container">
         <nav className="menu" role="navigation">
           <ul>
-            <li>Menu item 1</li>
-            <li>Menu item 2</li>
+            <li><Modal/></li>
+            <li>
+              <Dialog />
+            </li>
             <li>Menu item 3</li>
             <li>Menu item 4</li>
             <li>Menu item 5</li>
@@ -54,7 +60,7 @@ function App() {
           <p>This is the fourth <a href="/">link</a>.</p>
         </footer>
       </div>
-    </>
+    </StyledEngineProvider>
   );
 }
 
