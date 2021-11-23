@@ -52,11 +52,12 @@ function App() {
             </p>
           </section>
         </main>
-        <footer className="footer" role="contentinfo">
-          <p>This is the first <a href="/">link</a>.</p>
-          <p>This is the second <a href="/">link</a>.</p>
-          <p>This is the third <a href="/">link</a>.</p>
-          <p>This is the fourth <a href="/">link</a>.</p>
+        <footer className="footer" role="contentinfo" aria-labelledby="footer-label">
+          <p id="footer-label">Links in the footer</p>
+          <p><a href="/one">This is the first link.</a></p>
+          <p><a href="/two">This is the second link.</a></p>
+          <p><a href="/three">This is the third link.</a></p>
+          <p><a href="/four">This is the fourth link.</a></p>
         </footer>
       </div>
     </StyledEngineProvider>
