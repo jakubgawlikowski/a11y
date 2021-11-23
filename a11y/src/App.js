@@ -9,7 +9,7 @@ function App() {
         </h1>
       </header>
       <form role="search">
-        <input type="search" accesskey="q" aria-label="search text" size="20"/>
+        <input type="search" aria-label="search text" size="20"/>
         <input type="submit" value="Search"/>
       </form>
       <div className="container">
@@ -27,12 +27,24 @@ function App() {
         <main className="main" role="main" label="Main content">
           <h2>This is the main content of the page</h2>
 
-          <div role="region" aria-labelledby="special-region">
+          <section role="region" aria-labelledby="special-region">
             <h3 id="special-region">Special region</h3>
             <p>
             This is a region that I want the user to be able to find.
             </p>
-          </div>
+          </section>
+          <section>
+            <h3 id="special-region">Some other region</h3>
+            <p>
+            This is a another generic region.
+            </p>
+          </section>
+          <section>
+            <h3 id="special-region">Yet another region</h3>
+            <p>
+            This is still another generic region.
+            </p>
+          </section>
         </main>
         <footer className="footer" role="contentinfo">
           <p>This is the first <a href="/">link</a>.</p>
