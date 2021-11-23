@@ -28,7 +28,7 @@ function App() {
         <main className="main" role="main" aria-label="Main content">
           <h3>This is the main content of the page</h3>
 
-          <section role="region" aria-labelledby="special-region">
+          <section aria-labelledby="special-region">
             <h2 id="special-region">Special region</h2>
             <p>
             This is a region that I want the user to be able to find.
