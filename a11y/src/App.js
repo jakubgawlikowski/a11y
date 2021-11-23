@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-noninteractive-tabindex */
 import React from 'react';
 import { StyledEngineProvider } from '@mui/material/styles';
 import Modal from './Modal';
@@ -14,6 +15,7 @@ function App() {
           Accessibility demo page
         </h1>
       </header>
+      <a className="skipLink" href="#main-content">Skip to main content</a>
       <form role="search">
         <input type="search" aria-label="search text" size="20"/>
         <input type="submit" value="Search"/>
@@ -30,7 +32,7 @@ function App() {
             <li>Menu item 7</li>
           </ul>
         </nav>
-        <main className="main" role="main" aria-label="Main content">
+        <main className="main" role="main" aria-label="Main content" id="main-content" tabIndex="0">
           <h2>This is the main content of the page</h2>
 
           <section aria-labelledby="special-region">

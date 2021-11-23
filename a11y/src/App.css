@@ -24,3 +24,11 @@
 .footer p {
   padding-right: 10px;
 }
+
+.skipLink {
+  margin-left: -9999px;
+}
+
+.skipLink:focus {
+  margin-left: 0;
+}
