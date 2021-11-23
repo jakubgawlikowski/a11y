@@ -24,7 +24,7 @@ function App() {
             <li>Menu item 7</li>
           </ul>
         </nav>
-        <main className="main" role="main" label="Main content">
+        <main className="main" role="main" aria-label="Main content">
           <h2>This is the main content of the page</h2>
 
           <section role="region" aria-labelledby="special-region">
@@ -34,13 +34,13 @@ function App() {
             </p>
           </section>
           <section>
-            <h3 id="special-region">Some other region</h3>
+            <h3 id="special-region2">Some other region</h3>
             <p>
             This is a another generic region.
             </p>
           </section>
           <section>
-            <h3 id="special-region">Yet another region</h3>
+            <h3 id="special-region3">Yet another region</h3>
             <p>
             This is still another generic region.
             </p>
