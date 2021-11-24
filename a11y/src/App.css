@@ -26,30 +26,32 @@
   padding-right: 10px;
 }
 
-.contrastBad {
-  background-color: #dfdfdf;
-  color:#70caab;
-  width: 100%;
-  height: 100px;
-  padding: 1rem;
+.error {
+  color: red;
+  font-size: 3rem;
 }
 
-.contrastAA {
-  background-color:#dfdfdf;
-  color: #51786b;
-  width: 100%;
-  height: 100px;
-  padding: 1rem;
+.error:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: red;
+  display: inline-block;
+  margin-right: 10px;
 }
 
-.contrastAAA {
-  background-color: #dfdfdf;
-  color: #2c493b;
-  width: 100%;
-  height: 100px;
-  padding: 1rem;
+.check {
+  color: green;
+  font-size: 3rem;
 }
 
-.smallText {
-  font-size: 1rem;
+.check:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: green;
+  display: inline-block;
+  margin-right: 10px;
 }

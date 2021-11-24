@@ -29,18 +29,8 @@ function App() {
           <h2>This is the main content of the page</h2>
           <section>
             <h3 id="special-region2">Some region</h3>
-            <p className="contrastBad">
-              Some text with insufficient contrast
-              <p className="smallText">Smaller text requires higher ratio</p>
-            </p>
-            <p className="contrastAA">
-              Some text with contrast conforming to the AA standard
-              <p className="smallText">Smaller text requires higher ratio</p>
-            </p>
-            <p className="contrastAAA">
-              Some text with contrast conforming to the AAA standard
-              <p className="smallText">Smaller text requires higher ratio</p>
-            </p>
+            <p className="error">Information about a task status</p>
+            <p className="check">Information about a task status</p>
           </section>
         </main>
         <footer className="footer" role="contentinfo">
