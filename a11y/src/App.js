@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <p>This is the main content of the page</p>
       </div>
       <div className="footer">
-        <p>This is a <a href="#">Footer link</a></p>
+        <p>This is a <a href="/one">Footer link</a></p>
       </div>
     </div>
   );
