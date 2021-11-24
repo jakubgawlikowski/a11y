@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 
 function App() {
@@ -27,7 +28,7 @@ function App() {
         <main className="main" role="main" aria-label="Main content">
           <h2>This is the main content of the page</h2>
 
-          <section role="region" aria-labelledby="special-region">
+          <section aria-labelledby="special-region">
             <h3 id="special-region">Special region</h3>
             <p>
             This is a region that I want the user to be able to find.
