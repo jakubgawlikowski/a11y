@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "jest-axe": "^5.0.1",
     "stylelint": "^14.1.0",
     "stylelint-a11y": "^1.2.3",
     "stylelint-config-standard": "^24.0.0"
