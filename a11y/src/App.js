@@ -1,4 +1,6 @@
 import React from 'react';
+import Error from './error.png';
+import Check from './check.png';
 import './App.css';
 
 function App() {
@@ -29,8 +31,8 @@ function App() {
           <h2>This is the main content of the page</h2>
           <section>
             <h3 id="special-region2">Some region</h3>
-            <p className="error">Information about a task status</p>
-            <p className="check">Information about a task status</p>
+            <p className="error"><img src={Error} alt="" />Information about a task status</p>
+            <p className="check"><img src={Check} alt="" />Information about a task status</p>
           </section>
         </main>
         <footer className="footer" role="contentinfo">

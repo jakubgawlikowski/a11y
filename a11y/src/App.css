@@ -31,7 +31,11 @@
   font-size: 3rem;
 }
 
-.error:before {
+.error img {
+  width: 40px;
+}
+
+/* .error:before {
   content: '';
   width: 40px;
   height: 40px;
@@ -39,14 +43,14 @@
   background-color: red;
   display: inline-block;
   margin-right: 10px;
-}
+} */
 
 .check {
   color: green;
   font-size: 3rem;
 }
 
-.check:before {
+/* .check:before {
   content: '';
   width: 40px;
   height: 40px;
@@ -54,4 +58,9 @@
   background-color: green;
   display: inline-block;
   margin-right: 10px;
+} */
+
+.check img {
+  width: 40px;
+  transform: scale(1.3);
 }
