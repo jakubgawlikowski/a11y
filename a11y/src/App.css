@@ -14,6 +14,7 @@
 
 .main {
   flex: 0 0 75%;
+  font-size: 2rem;
 }
 
 .footer {
@@ -25,24 +26,30 @@
   padding-right: 10px;
 }
 
-.smallButton {
-  width: 16px;
-  height: 16px;
+.contrastBad {
+  background-color: #dfdfdf;
+  color:#70caab;
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
 }
 
-@media (pointer: coarse) {
-  .smallButton {
-    width: 44px;
-    height: 44px;
-  }
+.contrastAA {
+  background-color:#dfdfdf;
+  color: #51786b;
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
 }
 
-.smallButtonAA {
-  width: 24px;
-  height: 24px;
+.contrastAAA {
+  background-color: #dfdfdf;
+  color: #2c493b;
+  width: 100%;
+  height: 100px;
+  padding: 1rem;
 }
 
-.smallButtonAAA {
-  width: 44px;
-  height: 44px;
+.smallText {
+  font-size: 1rem;
 }

@@ -29,17 +29,17 @@ function App() {
           <h2>This is the main content of the page</h2>
           <section>
             <h3 id="special-region2">Some region</h3>
-            <p>
-              <button className="smallButtonAA">aa</button>
-              <button className="smallButtonAA">aa</button>
+            <p className="contrastBad">
+              Some text with insufficient contrast
+              <p className="smallText">Smaller text requires higher ratio</p>
             </p>
-            <p>
-              <button className="smallButtonAAA">aaa</button>
-              <button className="smallButtonAAA">aaa</button>
+            <p className="contrastAA">
+              Some text with contrast conforming to the AA standard
+              <p className="smallText">Smaller text requires higher ratio</p>
             </p>
-            <p>
-              <button className="smallButton">a</button>
-              <button className="smallButton">a</button>
+            <p className="contrastAAA">
+              Some text with contrast conforming to the AAA standard
+              <p className="smallText">Smaller text requires higher ratio</p>
             </p>
           </section>
         </main>
