@@ -25,7 +25,7 @@ function App() {
             <li>Menu item 7</li>
           </ul>
         </nav>
-        <main className="main" role="main" aria-label="Main content">
+        <main className="main" role="main" aria-label="Main content" tabIndex="0">
           <h2>This is the main content of the page</h2>
 
           <section aria-labelledby="special-region">
@@ -48,10 +48,10 @@ function App() {
           </section>
         </main>
         <footer className="footer" role="contentinfo">
-          <p>This is the first <a href="/">link</a>.</p>
-          <p>This is the second <a href="/">link</a>.</p>
-          <p>This is the third <a href="/">link</a>.</p>
-          <p>This is the fourth <a href="/">link</a>.</p>
+          <p>This is the first <a href="/one">link</a>.</p>
+          <p>This is the second <a href="/two">link</a>.</p>
+          <p>This is the third <a href="/three">link</a>.</p>
+          <p>This is the fourth <a href="/four">link</a>.</p>
         </footer>
       </div>
     </>
