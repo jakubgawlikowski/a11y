@@ -27,23 +27,19 @@ function App() {
         </nav>
         <main className="main" role="main" aria-label="Main content">
           <h2>This is the main content of the page</h2>
-
-          <section aria-labelledby="special-region">
-            <h3 id="special-region">Special region</h3>
-            <p>
-            This is a region that I want the user to be able to find.
-            </p>
-          </section>
           <section>
-            <h3 id="special-region2">Some other region</h3>
+            <h3 id="special-region2">Some region</h3>
             <p>
-            This is a another generic region.
+              <button className="smallButtonAA">aa</button>
+              <button className="smallButtonAA">aa</button>
             </p>
-          </section>
-          <section>
-            <h3 id="special-region3">Yet another region</h3>
             <p>
-            This is still another generic region.
+              <button className="smallButtonAAA">aaa</button>
+              <button className="smallButtonAAA">aaa</button>
+            </p>
+            <p>
+              <button className="smallButton">a</button>
+              <button className="smallButton">a</button>
             </p>
           </section>
         </main>

@@ -24,3 +24,25 @@
 .footer p {
   padding-right: 10px;
 }
+
+.smallButton {
+  width: 16px;
+  height: 16px;
+}
+
+@media (pointer: coarse) {
+  .smallButton {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+.smallButtonAA {
+  width: 24px;
+  height: 24px;
+}
+
+.smallButtonAAA {
+  width: 44px;
+  height: 44px;
+}
