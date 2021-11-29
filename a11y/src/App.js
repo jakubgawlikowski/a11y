@@ -54,7 +54,7 @@ function App() {
         </main>
         <footer className="footer" role="contentinfo" aria-labelledby="footer-label">
           <p id="footer-label">Links in the footer</p>
-          <p><a href="/one">This is the first link.</a></p>
+          <p>This is the first <a href="/one">link</a>.</p>
           <p><a href="/two">This is the second link.</a></p>
           <p><a href="/three">This is the third link.</a></p>
           <p><a href="/four">This is the fourth link.</a></p>
