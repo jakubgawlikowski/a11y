@@ -24,3 +24,8 @@
 .footer p {
   padding-right: 10px;
 }
+
+.modalStatus {
+  height: 0;
+  margin-left: -9999px;
+}
